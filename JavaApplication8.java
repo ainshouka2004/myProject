@@ -15,6 +15,8 @@ public class JavaApplication8 {
      */
     public static void main(String[] args) {
         System.out.println("Nouran Ahmed");
+        System.out.println("Hello world!");
+
     }
     
 }
