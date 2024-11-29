@@ -11,8 +11,8 @@ jobs:
  build:
   runs-on: ubuntu-latest
 
-   steps:
+  steps:
    - name: 'Testing Github action'
-   run: pwd
+   run: echo 'Hello, World!'
    - name: 'Testing printing'
    run: echo 'This is a test'
