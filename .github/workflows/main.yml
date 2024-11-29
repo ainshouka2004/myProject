@@ -16,5 +16,8 @@ jobs:
         run: pwd
       - name: "testing printing"
         run: echo ahmed
-      - name: "printing folder contents"
+      - name: "printing folder contents Before"
+        run: ls
+      - users: actions/checkout@v3
+      - name: "printing folder contents After"
         run: ls
