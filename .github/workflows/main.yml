@@ -16,3 +16,5 @@ jobs:
         run: pwd
       - name: "testing printing"
         run: echo ahmed
+      - name: "printing folder contents"
+        run: ls
