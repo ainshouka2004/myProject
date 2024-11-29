@@ -14,8 +14,8 @@ jobs:
     steps:
       - name: "printing folder contents Before"
         run: ls
-        
-      - users: actions/checkout@v3
+
+      - uses: actions/checkout@v3
 
       - name: "printing folder contents After"
         run: ls
