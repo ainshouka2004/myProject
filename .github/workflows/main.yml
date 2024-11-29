@@ -12,10 +12,8 @@ jobs:
     runs-on: ubuntu-latest 
     
     steps:
-      - name: "printing folder contents Before"
-        run: ls
 
       - uses: actions/checkout@v3
 
-      - name: "printing folder contents After"
-        run: ls
+      - name: "login to Docker Hub"
+        run: docker login --username ${{ secrets.DOCKER_USERNAME}} --password ${{ secrets.DOCKER_TOKEN }}
