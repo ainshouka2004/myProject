@@ -12,7 +12,7 @@ jobs:
   runs-on: ubuntu-latest
 
   steps:
-   - name: 'Testing Github action'
-   run: echo 'Hello, World!'
-   - name: 'Testing printing'
-   run: echo 'This is a test'
+  - name: 'Testing Github action'
+  run: echo 'Hello, World!'
+  - name: 'Testing printing'
+  run: echo 'This is a test'
